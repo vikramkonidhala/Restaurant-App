@@ -1,0 +1,166 @@
+.food-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 98%;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 15px;
+  min-height: 230px;
+}
+
+.container-1 {
+  width: 60%;
+  display: flex;
+}
+
+.container-2 {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.dish-type {
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.dish-details {
+  width: 90%;
+}
+
+.dish-price {
+  color: rgba(59, 58, 58, 0.947);
+  font-weight: bold;
+}
+
+.dish-description {
+  color: rgb(148, 146, 146);
+}
+
+.dish-calories {
+  width: 50%;
+  color: rgba(255, 128, 0, 0.916);
+  font-weight: bold;
+  align-self: center;
+}
+
+img-container {
+  width: 50%;
+}
+
+.dish-image {
+  height: 150px;
+  width: 150px;
+  border-radius: 5px;
+}
+
+.dish-name {
+  font-size: 20px;
+}
+
+.dish-customizations {
+  color: rgb(93, 93, 247);
+}
+
+.dish-not-availability {
+  color: rgb(146, 3, 3);
+}
+
+.dish-availability {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: green;
+  padding: 5px;
+  border-radius: 25px;
+  height: 50px;
+  width: 100px;
+  color: white;
+}
+
+.qty-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.quantity {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .food-item {
+    padding: 5px;
+    padding-left: 8px;
+    width: 90vw;
+    justify-content: flex-start;
+  }
+
+  .dish-details {
+    width: 60%;
+  }
+
+  .dish-price {
+    font-size: 12px;
+  }
+
+  .dish-type {
+    height: 20px;
+    width: 20px;
+    margin-top: 12px;
+    margin-right: 5px;
+  }
+
+  .dish-name {
+    font-size: 16px;
+  }
+
+  .dish-description {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .dish-image {
+    height: 70px;
+    width: 70px;
+  }
+  .container-2 {
+    width: 40%;
+  }
+
+  .dish-calories {
+    font-size: 12px;
+    padding-right: 5px;
+    width: 50%;
+  }
+}
+
+.button {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  background-color: orangered;
+  border: none;
+  border-radius: 4px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.add-to-cart-btn {
+  font-size: 12px;
+  margin-bottom: 32px;
+}

@@ -1,0 +1,23 @@
+.selected-menu {
+  color: orangered;
+  border: none;
+  border-bottom: 3px solid orangered;
+  padding: 20px;
+  padding-top: 5px;
+  margin-right: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.menu-item {
+  padding: 20px;
+  padding-top: 5px;
+  margin-right: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}

@@ -1,0 +1,25 @@
+.food-app {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-list {
+  display: flex;
+  list-style-type: none;
+  box-shadow: 1px 1px 1px #bfbfbf;
+  overflow-x: scroll;
+  white-space: nowrap;
+  padding-left: 10px;
+}
+
+@media (min-width: 768px) {
+  .menu-list {
+    overflow-x: hidden;
+  }
+}
+
+.food-items-list {
+  list-style-type: none;
+  width: 100%;
+  padding: 0px;
+}
